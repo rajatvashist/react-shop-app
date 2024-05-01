@@ -26,7 +26,7 @@ function ProductDetail() {
                   {detail.images?.map((yt, i) => (
                     <>
                       <div
-                        className={`carousel-item ${i == 0 ? "active" : ""}`}
+                        className={`carousel-item ${i === 0 ? "active" : ""}`}
                       >
                         {" "}
                         <img
