@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Audio } from "react-loader-spinner";
 function Product() {
   const [products, setproducts] = useState([]);
   const [cat, setcat] = useState([]);
@@ -29,7 +28,7 @@ function Product() {
       .then((data) => {
         setproducts(data.products);
 
-        if (data.products.length == 0) {
+        if (data.products.length === 0) {
           setsearchProducts("no");
         }
       });
@@ -109,24 +108,24 @@ function Product() {
                   <div className="col-12 col-sm-4 text-center text-sm-right">
                     <ul className="nav nav-tabs ml-auto">
                       <li>
-                        <a
+                        <Link
                           className="nav-link active"
-                          href="#grid-view"
+                          to="#grid-view"
                           data-toggle="tab"
                         >
                           {" "}
                           <i className="fa fa-th" />{" "}
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           className="nav-link"
-                          href="#list-view"
+                          to="#list-view"
                           data-toggle="tab"
                         >
                           {" "}
                           <i className="fa fa-list-ul" />{" "}
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -139,8 +138,8 @@ function Product() {
                       id="grid-view"
                     >
                       <div className="row">
-                        {products.length == 0 && searchProducts == "" && (
-                          <Audio
+                        {products.length === 0 && searchProducts === "" && (
+                          <Link
                             height="100"
                             width="100"
                             color="#4fa94d"
@@ -151,7 +150,7 @@ function Product() {
                           />
                         )}
 
-                        {searchProducts == "no" && <h1>No Products Found!</h1>}
+                        {searchProducts === "no" && <h1>No Products Found!</h1>}
                         {products.map((ty) => (
                           <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4">
                             <div className="products-single fix">
@@ -162,39 +161,39 @@ function Product() {
                                 <img
                                   src={ty.thumbnail}
                                   className="img-fluid"
-                                  alt="Image"
+                                  alt=""
                                 />
                                 <div className="mask-icon">
                                   <ul>
                                     <li>
-                                      <a
-                                        href="#"
+                                      <Link
+                                        to="#"
                                         data-toggle="tooltip"
                                         data-placement="right"
                                         title="View"
                                       >
                                         <i className="fas fa-eye" />
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li>
-                                      <a
-                                        href="#"
+                                      <Link
+                                        to="#"
                                         data-toggle="tooltip"
                                         data-placement="right"
                                         title="Compare"
                                       >
                                         <i className="fas fa-sync-alt" />
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li>
-                                      <a
-                                        href="#"
+                                      <Link
+                                        to="#"
                                         data-toggle="tooltip"
                                         data-placement="right"
                                         title="Add to Wishlist"
                                       >
                                         <i className="far fa-heart" />
-                                      </a>
+                                      </Link>
                                     </li>
                                   </ul>
                                   <Link
@@ -230,39 +229,39 @@ function Product() {
                                 <img
                                   src="images/img-pro-01.jpg"
                                   className="img-fluid"
-                                  alt="Image"
+                                  alt=""
                                 />
                                 <div className="mask-icon">
                                   <ul>
                                     <li>
-                                      <a
-                                        href="#"
+                                      <Link
+                                        to="#"
                                         data-toggle="tooltip"
                                         data-placement="right"
                                         title="View"
                                       >
                                         <i className="fas fa-eye" />
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li>
-                                      <a
-                                        href="#"
+                                      <Link
+                                        to="#"
                                         data-toggle="tooltip"
                                         data-placement="right"
                                         title="Compare"
                                       >
                                         <i className="fas fa-sync-alt" />
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li>
-                                      <a
-                                        href="#"
+                                      <Link
+                                        to="#"
                                         data-toggle="tooltip"
                                         data-placement="right"
                                         title="Add to Wishlist"
                                       >
                                         <i className="far fa-heart" />
-                                      </a>
+                                      </Link>
                                     </li>
                                   </ul>
                                 </div>
@@ -290,9 +289,9 @@ function Product() {
                                 Praesent vulputate semper libero pulvinar
                                 consequat. Etiam ut placerat lectus.
                               </p>
-                              <a className="btn hvr-hover" href="#">
+                              <Link className="btn hvr-hover" to="#">
                                 Add to Cart
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -308,39 +307,39 @@ function Product() {
                                 <img
                                   src="images/img-pro-02.jpg"
                                   className="img-fluid"
-                                  alt="Image"
+                                  alt=""
                                 />
                                 <div className="mask-icon">
                                   <ul>
                                     <li>
-                                      <a
-                                        href="#"
+                                      <Link
+                                        to="#"
                                         data-toggle="tooltip"
                                         data-placement="right"
                                         title="View"
                                       >
                                         <i className="fas fa-eye" />
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li>
-                                      <a
-                                        href="#"
+                                      <Link
+                                        to="#"
                                         data-toggle="tooltip"
                                         data-placement="right"
                                         title="Compare"
                                       >
                                         <i className="fas fa-sync-alt" />
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li>
-                                      <a
-                                        href="#"
+                                      <Link
+                                        to="#"
                                         data-toggle="tooltip"
                                         data-placement="right"
                                         title="Add to Wishlist"
                                       >
                                         <i className="far fa-heart" />
-                                      </a>
+                                      </Link>
                                     </li>
                                   </ul>
                                 </div>
@@ -368,9 +367,9 @@ function Product() {
                                 Praesent vulputate semper libero pulvinar
                                 consequat. Etiam ut placerat lectus.
                               </p>
-                              <a className="btn hvr-hover" href="#">
+                              <Link className="btn hvr-hover" to="#">
                                 Add to Cart
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -386,39 +385,39 @@ function Product() {
                                 <img
                                   src="images/img-pro-03.jpg"
                                   className="img-fluid"
-                                  alt="Image"
+                                  alt=""
                                 />
                                 <div className="mask-icon">
                                   <ul>
                                     <li>
-                                      <a
-                                        href="#"
+                                      <Link
+                                        to="#"
                                         data-toggle="tooltip"
                                         data-placement="right"
                                         title="View"
                                       >
                                         <i className="fas fa-eye" />
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li>
-                                      <a
-                                        href="#"
+                                      <Link
+                                        to="#"
                                         data-toggle="tooltip"
                                         data-placement="right"
                                         title="Compare"
                                       >
                                         <i className="fas fa-sync-alt" />
-                                      </a>
+                                      </Link>
                                     </li>
                                     <li>
-                                      <a
-                                        href="#"
+                                      <Link
+                                        to="#"
                                         data-toggle="tooltip"
                                         data-placement="right"
                                         title="Add to Wishlist"
                                       >
                                         <i className="far fa-heart" />
-                                      </a>
+                                      </Link>
                                     </li>
                                   </ul>
                                 </div>
@@ -446,9 +445,9 @@ function Product() {
                                 Praesent vulputate semper libero pulvinar
                                 consequat. Etiam ut placerat lectus.
                               </p>
-                              <a className="btn hvr-hover" href="#">
+                              <Link className="btn hvr-hover" to="#">
                                 Add to Cart
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
