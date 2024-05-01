@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function About() {
     return ( 
         <>
@@ -88,16 +90,16 @@ function About() {
               </div>
               <ul className="social">
                 <li>
-                  <a to="#" className="fab fa-facebook" />
+                  <Link to="#" className="fab fa-facebook" />
                 </li>
                 <li>
-                  <a to="#" className="fab fa-twitter" />
+                  <Link to="#" className="fab fa-twitter" />
                 </li>
                 <li>
-                  <a to="#" className="fab fa-google-plus" />
+                  <Link to="#" className="fab fa-google-plus" />
                 </li>
                 <li>
-                  <a to="#" className="fab fa-youtube" />
+                  <Link to="#" className="fab fa-youtube" />
                 </li>
               </ul>
               <div className="icon">
@@ -127,16 +129,16 @@ function About() {
               </div>
               <ul className="social">
                 <li>
-                  <a to="#" className="fab fa-facebook" />
+                  <Link to="#" className="fab fa-facebook" />
                 </li>
                 <li>
-                  <a to="#" className="fab fa-twitter" />
+                  <Link to="#" className="fab fa-twitter" />
                 </li>
                 <li>
-                  <a to="#" className="fab fa-google-plus" />
+                  <Link to="#" className="fab fa-google-plus" />
                 </li>
                 <li>
-                  <a to="#" className="fab fa-youtube" />
+                  <Link to="#" className="fab fa-youtube" />
                 </li>
               </ul>
               <div className="icon">
@@ -166,16 +168,16 @@ function About() {
               </div>
               <ul className="social">
                 <li>
-                  <a to="#" className="fab fa-facebook" />
+                  <Link to="#" className="fab fa-facebook" />
                 </li>
                 <li>
-                  <a to="#" className="fab fa-twitter" />
+                  <Link to="#" className="fab fa-twitter" />
                 </li>
                 <li>
-                  <a to="#" className="fab fa-google-plus" />
+                  <Link to="#" className="fab fa-google-plus" />
                 </li>
                 <li>
-                  <a to="#" className="fab fa-youtube" />
+                  <Link to="#" className="fab fa-youtube" />
                 </li>
               </ul>
               <div className="icon">
@@ -205,16 +207,16 @@ function About() {
               </div>
               <ul className="social">
                 <li>
-                  <a to="#" className="fab fa-facebook" />
+                  <Link to="#" className="fab fa-facebook" />
                 </li>
                 <li>
-                  <a to="#" className="fab fa-twitter" />
+                  <Link to="#" className="fab fa-twitter" />
                 </li>
                 <li>
-                  <a to="#" className="fab fa-google-plus" />
+                  <Link to="#" className="fab fa-google-plus" />
                 </li>
                 <li>
-                  <a to="#" className="fab fa-youtube" />
+                  <Link to="#" className="fab fa-youtube" />
                 </li>
               </ul>
               <div className="icon">
