@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <>
@@ -12,23 +14,23 @@ function Home() {
                   src="images/t-shirts-img.jpg"
                   alt=""
                 />
-                <a className="btn hvr-hover" href="#">
+                <Link className="btn hvr-hover" to="#">
                   T-shirts
-                </a>
+                </Link>
               </div>
               <div className="shop-cat-box">
                 <img className="img-fluid" src="images/shirt-img.jpg" alt="" />
-                <a className="btn hvr-hover" href="#">
+                <Link className="btn hvr-hover" to="#">
                   Shirt
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <div className="shop-cat-box">
                 <img className="img-fluid" src="images/wallet-img.jpg" alt="" />
-                <a className="btn hvr-hover" href="#">
+                <Link className="btn hvr-hover" to="#">
                   Wallet
-                </a>
+                </Link>
               </div>
               <div className="shop-cat-box">
                 <img
@@ -36,17 +38,17 @@ function Home() {
                   src="images/women-bag-img.jpg"
                   alt=""
                 />
-                <a className="btn hvr-hover" href="#">
+                <Link className="btn hvr-hover" to="#">
                   Bags
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
               <div className="shop-cat-box">
                 <img className="img-fluid" src="images/shoes-img.jpg" alt="" />
-                <a className="btn hvr-hover" href="#">
+                <Link className="btn hvr-hover" to="#">
                   Shoes
-                </a>
+                </Link>
               </div>
               <div className="shop-cat-box">
                 <img
@@ -54,9 +56,9 @@ function Home() {
                   src="images/women-shoes-img.jpg"
                   alt=""
                 />
-                <a className="btn hvr-hover" href="#">
+                <Link className="btn hvr-hover" to="#">
                   Women Shoes
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -100,44 +102,44 @@ function Home() {
                   <img
                     src="images/img-pro-01.jpg"
                     className="img-fluid"
-                    alt="Image"
+                    alt=""
                   />
                   <div className="mask-icon">
                     <ul>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="#"
                           data-toggle="tooltip"
                           data-placement="right"
                           title="View"
                         >
                           <i className="fas fa-eye" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="#"
                           data-toggle="tooltip"
                           data-placement="right"
                           title="Compare"
                         >
                           <i className="fas fa-sync-alt" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="#"
                           data-toggle="tooltip"
                           data-placement="right"
                           title="Add to Wishlist"
                         >
                           <i className="far fa-heart" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
-                    <a className="cart" href="#">
+                    <Link className="cart" to="#">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="why-text">
@@ -155,44 +157,44 @@ function Home() {
                   <img
                     src="images/img-pro-02.jpg"
                     className="img-fluid"
-                    alt="Image"
+                    alt=""
                   />
                   <div className="mask-icon">
                     <ul>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="#"
                           data-toggle="tooltip"
                           data-placement="right"
                           title="View"
                         >
                           <i className="fas fa-eye" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="#"
                           data-toggle="tooltip"
                           data-placement="right"
                           title="Compare"
                         >
                           <i className="fas fa-sync-alt" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="#"
                           data-toggle="tooltip"
                           data-placement="right"
                           title="Add to Wishlist"
                         >
                           <i className="far fa-heart" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
-                    <a className="cart" href="#">
+                    <Link className="cart" to="#">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="why-text">
@@ -210,44 +212,44 @@ function Home() {
                   <img
                     src="images/img-pro-03.jpg"
                     className="img-fluid"
-                    alt="Image"
+                    alt=""
                   />
                   <div className="mask-icon">
                     <ul>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="#"
                           data-toggle="tooltip"
                           data-placement="right"
                           title="View"
                         >
                           <i className="fas fa-eye" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="#"
                           data-toggle="tooltip"
                           data-placement="right"
                           title="Compare"
                         >
                           <i className="fas fa-sync-alt" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="#"
                           data-toggle="tooltip"
                           data-placement="right"
                           title="Add to Wishlist"
                         >
                           <i className="far fa-heart" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
-                    <a className="cart" href="#">
+                    <Link className="cart" to="#">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="why-text">
@@ -265,44 +267,44 @@ function Home() {
                   <img
                     src="images/img-pro-04.jpg"
                     className="img-fluid"
-                    alt="Image"
+                    alt=""
                   />
                   <div className="mask-icon">
                     <ul>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="#"
                           data-toggle="tooltip"
                           data-placement="right"
                           title="View"
                         >
                           <i className="fas fa-eye" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="#"
                           data-toggle="tooltip"
                           data-placement="right"
                           title="Compare"
                         >
                           <i className="fas fa-sync-alt" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="#"
                           data-toggle="tooltip"
                           data-placement="right"
                           title="Add to Wishlist"
                         >
                           <i className="far fa-heart" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
-                    <a className="cart" href="#">
+                    <Link className="cart" to="#">
                       Add to Cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="why-text">
@@ -347,34 +349,34 @@ function Home() {
                   </div>
                   <ul className="option-blog">
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        to="#"
                         data-toggle="tooltip"
                         data-placement="right"
                         title="Likes"
                       >
                         <i className="far fa-heart" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        to="#"
                         data-toggle="tooltip"
                         data-placement="right"
                         title="Views"
                       >
                         <i className="fas fa-eye" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        to="#"
                         data-toggle="tooltip"
                         data-placement="right"
                         title="Comments"
                       >
                         <i className="far fa-comments" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -401,34 +403,34 @@ function Home() {
                   </div>
                   <ul className="option-blog">
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        to="#"
                         data-toggle="tooltip"
                         data-placement="right"
                         title="Likes"
                       >
                         <i className="far fa-heart" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        to="#"
                         data-toggle="tooltip"
                         data-placement="right"
                         title="Views"
                       >
                         <i className="fas fa-eye" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        to="#"
                         data-toggle="tooltip"
                         data-placement="right"
                         title="Comments"
                       >
                         <i className="far fa-comments" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -455,34 +457,34 @@ function Home() {
                   </div>
                   <ul className="option-blog">
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        to="#"
                         data-toggle="tooltip"
                         data-placement="right"
                         title="Likes"
                       >
                         <i className="far fa-heart" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        to="#"
                         data-toggle="tooltip"
                         data-placement="right"
                         title="Views"
                       >
                         <i className="fas fa-eye" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="#"
+                      <Link
+                        to="#"
                         data-toggle="tooltip"
                         data-placement="right"
                         title="Comments"
                       >
                         <i className="far fa-comments" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

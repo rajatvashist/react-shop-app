@@ -2,16 +2,11 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 function Cart() {
   const [a, seta] = useState([]);
-  const [b, setb] = useState([]);
 
   useEffect(() => {
     fetch("https://dummyjson.com/carts/2")
       .then((res) => res.json())
       .then((data) => seta(data.products));
-
-    fetch("https://dummyjson.com/carts/2")
-      .then((res) => res.json())
-      .then((data) => setb(data));
   }, []);
 
   return (
@@ -57,9 +52,9 @@ function Cart() {
                           <p>${h.total}</p>
                         </td>
                         <td className="remove-pr">
-                          <a to="#">
+                          <Link to="#">
                             <i className="fas fa-times" />
-                          </a>
+                          </Link>
                         </td>
                       </tr>
                     ))}
