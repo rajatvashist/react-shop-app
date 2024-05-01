@@ -17,7 +17,7 @@ function Users() {
               <h2>Shop</h2>
               <ul class="breadcrumb">
                 <li class="breadcrumb-item">
-                  <a href="#">Home</a>
+                  <Link to="#">Home</Link>
                 </li>
                 <li class="breadcrumb-item active">USERS</li>
               </ul>

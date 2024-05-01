@@ -88,16 +88,16 @@ function About() {
               </div>
               <ul className="social">
                 <li>
-                  <a href="#" className="fab fa-facebook" />
+                  <a to="#" className="fab fa-facebook" />
                 </li>
                 <li>
-                  <a href="#" className="fab fa-twitter" />
+                  <a to="#" className="fab fa-twitter" />
                 </li>
                 <li>
-                  <a href="#" className="fab fa-google-plus" />
+                  <a to="#" className="fab fa-google-plus" />
                 </li>
                 <li>
-                  <a href="#" className="fab fa-youtube" />
+                  <a to="#" className="fab fa-youtube" />
                 </li>
               </ul>
               <div className="icon">
@@ -127,16 +127,16 @@ function About() {
               </div>
               <ul className="social">
                 <li>
-                  <a href="#" className="fab fa-facebook" />
+                  <a to="#" className="fab fa-facebook" />
                 </li>
                 <li>
-                  <a href="#" className="fab fa-twitter" />
+                  <a to="#" className="fab fa-twitter" />
                 </li>
                 <li>
-                  <a href="#" className="fab fa-google-plus" />
+                  <a to="#" className="fab fa-google-plus" />
                 </li>
                 <li>
-                  <a href="#" className="fab fa-youtube" />
+                  <a to="#" className="fab fa-youtube" />
                 </li>
               </ul>
               <div className="icon">
@@ -166,16 +166,16 @@ function About() {
               </div>
               <ul className="social">
                 <li>
-                  <a href="#" className="fab fa-facebook" />
+                  <a to="#" className="fab fa-facebook" />
                 </li>
                 <li>
-                  <a href="#" className="fab fa-twitter" />
+                  <a to="#" className="fab fa-twitter" />
                 </li>
                 <li>
-                  <a href="#" className="fab fa-google-plus" />
+                  <a to="#" className="fab fa-google-plus" />
                 </li>
                 <li>
-                  <a href="#" className="fab fa-youtube" />
+                  <a to="#" className="fab fa-youtube" />
                 </li>
               </ul>
               <div className="icon">
@@ -205,16 +205,16 @@ function About() {
               </div>
               <ul className="social">
                 <li>
-                  <a href="#" className="fab fa-facebook" />
+                  <a to="#" className="fab fa-facebook" />
                 </li>
                 <li>
-                  <a href="#" className="fab fa-twitter" />
+                  <a to="#" className="fab fa-twitter" />
                 </li>
                 <li>
-                  <a href="#" className="fab fa-google-plus" />
+                  <a to="#" className="fab fa-google-plus" />
                 </li>
                 <li>
-                  <a href="#" className="fab fa-youtube" />
+                  <a to="#" className="fab fa-youtube" />
                 </li>
               </ul>
               <div className="icon">

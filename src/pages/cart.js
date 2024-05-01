@@ -57,7 +57,7 @@ function Cart() {
                           <p>${h.total}</p>
                         </td>
                         <td className="remove-pr">
-                          <a href="#">
+                          <a to="#">
                             <i className="fas fa-times" />
                           </a>
                         </td>

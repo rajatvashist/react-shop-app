@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 function ProductDetail() {
   const [detail, setdetail] = useState({});
   let { pid } = useParams();
@@ -7,7 +7,7 @@ function ProductDetail() {
     fetch(`https://dummyjson.com/products/${pid}`)
       .then((res) => res.json())
       .then((data) => setdetail(data));
-  }, []);
+  });
 
   console.log(detail);
   return (
@@ -39,39 +39,37 @@ function ProductDetail() {
                     </>
                   ))}
                 </div>
-                <a
+                <Link
                   className="carousel-control-prev"
-                  href="#carousel-example-1"
+                  to="#carousel-example-1"
                   role="button"
                   data-slide="prev"
                 >
                   <i className="fa fa-angle-left" aria-hidden="true" />
                   <span className="sr-only">Previous</span>
-                </a>
-                <a
+                </Link>
+                <Link
                   className="carousel-control-next"
-                  href="#carousel-example-1"
+                  to="#carousel-example-1"
                   role="button"
                   data-slide="next"
                 >
                   <i className="fa fa-angle-right" aria-hidden="true" />
                   <span className="sr-only">Next</span>
-                </a>
+                </Link>
                 <ol className="carousel-indicators">
                   {detail.images?.map((yr, i) => (
-                    <>
-                      <li
-                        data-target="#carousel-example-1"
-                        data-slide-to={i}
-                        className="active"
-                      >
-                        <img
-                          className="d-block w-100 img-fluid"
-                          src={yr}
-                          alt=""
-                        />
-                      </li>
-                    </>
+                    <li
+                      data-target="#carousel-example-1"
+                      data-slide-to={i}
+                      className="active"
+                    >
+                      <img
+                        className="d-block w-100 img-fluid"
+                        src={yr}
+                        alt=""
+                      />
+                    </li>
                   ))}
                   {/* <li data-target="#carousel-example-1" data-slide-to={1}>
                 <img
@@ -104,7 +102,8 @@ function ProductDetail() {
                 <p className="available-stock">
                   <span>
                     {" "}
-                    More than {detail.stock} available / <a href="#">8 sold </a>
+                    More than {detail.stock} available /{" "}
+                    <Link to="#">8 sold </Link>
                   </span>
                 </p>
                 <p></p>
@@ -144,47 +143,47 @@ function ProductDetail() {
                 </ul>
                 <div className="price-box-bar">
                   <div className="cart-and-bay-btn">
-                    <a
+                    <Link
                       className="btn hvr-hover"
                       data-fancybox-close=""
-                      href="#"
+                      to="#"
                     >
                       Buy New
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       className="btn hvr-hover"
                       data-fancybox-close=""
-                      href="#"
+                      to="#"
                     >
                       Add to cart
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="add-to-btn">
                   <div className="add-comp">
-                    <a className="btn hvr-hover" href="#">
+                    <Link className="btn hvr-hover" to="#">
                       <i className="fas fa-heart" /> Add to wishlist
-                    </a>
-                    <a className="btn hvr-hover" href="#">
+                    </Link>
+                    <Link className="btn hvr-hover" to="#">
                       <i className="fas fa-sync-alt" /> Add to Compare
-                    </a>
+                    </Link>
                   </div>
                   <div className="share-bar">
-                    <a className="btn hvr-hover" href="#">
+                    <Link className="btn hvr-hover" to="#">
                       <i className="fab fa-facebook" aria-hidden="true" />
-                    </a>
-                    <a className="btn hvr-hover" href="#">
+                    </Link>
+                    <Link className="btn hvr-hover" to="#">
                       <i className="fab fa-google-plus" aria-hidden="true" />
-                    </a>
-                    <a className="btn hvr-hover" href="#">
+                    </Link>
+                    <Link className="btn hvr-hover" to="#">
                       <i className="fab fa-twitter" aria-hidden="true" />
-                    </a>
-                    <a className="btn hvr-hover" href="#">
+                    </Link>
+                    <Link className="btn hvr-hover" to="#">
                       <i className="fab fa-pinterest-p" aria-hidden="true" />
-                    </a>
-                    <a className="btn hvr-hover" href="#">
+                    </Link>
+                    <Link className="btn hvr-hover" to="#">
                       <i className="fab fa-whatsapp" aria-hidden="true" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

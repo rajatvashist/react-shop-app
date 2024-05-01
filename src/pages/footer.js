@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <>
@@ -17,39 +19,39 @@ function Footer() {
                   </p>
                   <ul>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook" aria-hidden="true" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-twitter" aria-hidden="true" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-linkedin" aria-hidden="true" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-google-plus" aria-hidden="true" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fa fa-rss" aria-hidden="true" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-pinterest-p" aria-hidden="true" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-whatsapp" aria-hidden="true" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -59,22 +61,22 @@ function Footer() {
                   <h4>Information</h4>
                   <ul>
                     <li>
-                      <a href="#">About Us</a>
+                      <Link to="#">About Us</Link>
                     </li>
                     <li>
-                      <a href="#">Customer Service</a>
+                      <Link to="#">Customer Service</Link>
                     </li>
                     <li>
-                      <a href="#">Our Sitemap</a>
+                      <Link to="#">Our Sitemap</Link>
                     </li>
                     <li>
-                      <a href="#">Terms &amp; Conditions</a>
+                      <Link to="#">Terms &amp; Conditions</Link>
                     </li>
                     <li>
-                      <a href="#">Privacy Policy</a>
+                      <Link to="#">Privacy Policy</Link>
                     </li>
                     <li>
-                      <a href="#">Delivery Information</a>
+                      <Link to="#">Delivery Information</Link>
                     </li>
                   </ul>
                 </div>
@@ -94,16 +96,16 @@ function Footer() {
                     <li>
                       <p>
                         <i className="fas fa-phone-square" />
-                        Phone: <a href="tel:+1-888705770">+1-888 705 770</a>
+                        Phone: <Link to="tel:+1-888705770">+1-888 705 770</Link>
                       </p>
                     </li>
                     <li>
                       <p>
                         <i className="fas fa-envelope" />
                         Email:{" "}
-                        <a href="mailto:contactinfo@gmail.com">
+                        <Link to="mailto:contactinfo@gmail.com">
                           contactinfo@gmail.com
-                        </a>
+                        </Link>
                       </p>
                     </li>
                   </ul>
@@ -123,9 +125,9 @@ function Footer() {
         <div className="ins-inner-box">
           <img src="images/instagram-img-01.jpg" alt="" />
           <div className="hov-in">
-            <a href="#">
+            <Link to="#">
               <i className="fab fa-instagram" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -133,9 +135,9 @@ function Footer() {
         <div className="ins-inner-box">
           <img src="images/instagram-img-02.jpg" alt="" />
           <div className="hov-in">
-            <a href="#">
+            <Link to="#">
               <i className="fab fa-instagram" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -143,9 +145,9 @@ function Footer() {
         <div className="ins-inner-box">
           <img src="images/instagram-img-03.jpg" alt="" />
           <div className="hov-in">
-            <a href="#">
+            <Link to="#">
               <i className="fab fa-instagram" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -153,9 +155,9 @@ function Footer() {
         <div className="ins-inner-box">
           <img src="images/instagram-img-04.jpg" alt="" />
           <div className="hov-in">
-            <a href="#">
+            <Link to="#">
               <i className="fab fa-instagram" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -163,9 +165,9 @@ function Footer() {
         <div className="ins-inner-box">
           <img src="images/instagram-img-05.jpg" alt="" />
           <div className="hov-in">
-            <a href="#">
+            <Link to="#">
               <i className="fab fa-instagram" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -173,9 +175,9 @@ function Footer() {
         <div className="ins-inner-box">
           <img src="images/instagram-img-06.jpg" alt="" />
           <div className="hov-in">
-            <a href="#">
+            <Link to="#">
               <i className="fab fa-instagram" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -183,9 +185,9 @@ function Footer() {
         <div className="ins-inner-box">
           <img src="images/instagram-img-07.jpg" alt="" />
           <div className="hov-in">
-            <a href="#">
+            <Link to="#">
               <i className="fab fa-instagram" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -193,9 +195,9 @@ function Footer() {
         <div className="ins-inner-box">
           <img src="images/instagram-img-08.jpg" alt="" />
           <div className="hov-in">
-            <a href="#">
+            <Link to="#">
               <i className="fab fa-instagram" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -203,9 +205,9 @@ function Footer() {
         <div className="ins-inner-box">
           <img src="images/instagram-img-09.jpg" alt="" />
           <div className="hov-in">
-            <a href="#">
+            <Link to="#">
               <i className="fab fa-instagram" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -213,9 +215,9 @@ function Footer() {
         <div className="ins-inner-box">
           <img src="images/instagram-img-05.jpg" alt="" />
           <div className="hov-in">
-            <a href="#">
+            <Link to="#">
               <i className="fab fa-instagram" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -229,19 +231,19 @@ function Footer() {
         {/* Start copyright  */}
         <div className="footer-copyright">
           <p className="footer-company">
-            All Rights Reserved. © 2018 <a href="#">ThewayShop</a> Design By :
-            <a href="#"> Rajat</a>
+            All Rights Reserved. © 2018 <Link to="#">ThewayShop</Link> Design By :
+            <Link to="#"> Rajat</Link>
           </p>
         </div>
         {/* End copyright  */}
-        <a
-          href="#"
+        <Link
+          to="#"
           id="back-to-top"
           title="Back to top"
           style={{ display: "none" }}
         >
           ↑
-        </a>
+        </Link>
     
     </>
   );

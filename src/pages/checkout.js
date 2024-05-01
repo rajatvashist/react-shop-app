@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Checkout() {
   return (
     <>
@@ -54,14 +55,14 @@ function Checkout() {
                 <h3>Create New Account</h3>
               </div>
               <h5>
-                <a
+                <Link
                   data-toggle="collapse"
-                  href="#formRegister"
+                  to="#formRegister"
                   role="button"
                   aria-expanded="false"
                 >
                   Click here to Register
-                </a>
+                </Link>
               </h5>
               <form className="mt-3 collapse review-form-box" id="formRegister">
                 <div className="form-row">
