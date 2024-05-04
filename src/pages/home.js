@@ -3,6 +3,13 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
+      {/* Start All Title Box */}
+      <div className="all-title-box">
+        <div className="container">
+          <div className="row"></div>
+        </div>
+      </div>
+      {/* End All Title Box */}
       {/* Start Categories  */}
       <div className="categories-shop">
         <div className="container">

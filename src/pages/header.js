@@ -34,14 +34,14 @@ function Header() {
               <div className="our-link">
                 <ul>
                   <li>
-                    <Link to="#">My Account</Link>
+                    <Link to="myaccounts">My Account</Link>
                   </li>
 
-                  <li>
+                  {/* <li>
                     <Link to="Users">Users</Link>
-                  </li>
+                  </li> */}
                   <li>
-                    <Link to="#">Login</Link>
+                    <Link to="login">Login</Link>
                   </li>
                 </ul>
               </div>
@@ -231,7 +231,7 @@ function Header() {
                 <li className="side-menu">
                   <Link to="cart">
                     <i className="fa fa-shopping-bag" />
-                    <span className="badge">3</span>
+                    <span className="badge"></span>
                   </Link>
                 </li>
               </ul>
@@ -322,14 +322,6 @@ function Header() {
         </div>
       </div>
       {/* End Top Search */}
-
-      {/* Start All Title Box */}
-      <div className="all-title-box">
-        <div className="container">
-          <div className="row"></div>
-        </div>
-      </div>
-      {/* End All Title Box */}
     </>
   );
 }

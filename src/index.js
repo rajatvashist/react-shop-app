@@ -10,10 +10,13 @@ import About from "./pages/about";
 import Service from "./pages/services";
 import Contact from "./pages/contact";
 import Layout from "./pages/layout";
-import Users from "./pages/users";
+import Login from "./pages/login";
+import Lo from "./pages/Lon";
+import Myaccounts from "./pages/myaccount";
 import Cart from "./pages/cart";
 import Checkout from "./pages/checkout";
 import NodeApi from "./pages/nodeapi";
+import Nopage from "./pages/nopage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -27,12 +30,14 @@ root.render(
           <Route path="about" element={<About />} />
           <Route path="service" element={<Service />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="users" element={<Users />} />
+          <Route path="login" element={<Login />} />
+          <Route path="lo" element={<Lo />} />
+          <Route path="myaccounts" element={<Myaccounts />} />
           <Route path="cart" element={<Cart />} />
           <Route path="checkout" element={<Checkout />} />
           <Route path="nodeapi" element={<NodeApi />} />
+          <Route path="*" element={<Nopage />} />
 
-          {/* <Route path="*" element={<NoPage />} /> */}
         </Route>
       </Routes>
     </BrowserRouter>

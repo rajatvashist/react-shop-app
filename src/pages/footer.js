@@ -117,134 +117,22 @@ function Footer() {
       </footer>
       {/* End Footer  */}
 
-      <>
-  {/* Start Instagram Feed  */}
-  <div className="instagram-box">
-    <div className="main-instagram owl-carousel owl-theme">
-      <div className="item">
-        <div className="ins-inner-box">
-          <img src="images/instagram-img-01.jpg" alt="" />
-          <div className="hov-in">
-            <Link to="#">
-              <i className="fab fa-instagram" />
-            </Link>
-          </div>
-        </div>
+      {/* Start copyright  */}
+      <div className="footer-copyright">
+        <p className="footer-company">
+          All Rights Reserved. © 2018 <Link to="#">ThewayShop</Link> Design By :
+          <Link to="#"> Rajat</Link>
+        </p>
       </div>
-      <div className="item">
-        <div className="ins-inner-box">
-          <img src="images/instagram-img-02.jpg" alt="" />
-          <div className="hov-in">
-            <Link to="#">
-              <i className="fab fa-instagram" />
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div className="item">
-        <div className="ins-inner-box">
-          <img src="images/instagram-img-03.jpg" alt="" />
-          <div className="hov-in">
-            <Link to="#">
-              <i className="fab fa-instagram" />
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div className="item">
-        <div className="ins-inner-box">
-          <img src="images/instagram-img-04.jpg" alt="" />
-          <div className="hov-in">
-            <Link to="#">
-              <i className="fab fa-instagram" />
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div className="item">
-        <div className="ins-inner-box">
-          <img src="images/instagram-img-05.jpg" alt="" />
-          <div className="hov-in">
-            <Link to="#">
-              <i className="fab fa-instagram" />
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div className="item">
-        <div className="ins-inner-box">
-          <img src="images/instagram-img-06.jpg" alt="" />
-          <div className="hov-in">
-            <Link to="#">
-              <i className="fab fa-instagram" />
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div className="item">
-        <div className="ins-inner-box">
-          <img src="images/instagram-img-07.jpg" alt="" />
-          <div className="hov-in">
-            <Link to="#">
-              <i className="fab fa-instagram" />
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div className="item">
-        <div className="ins-inner-box">
-          <img src="images/instagram-img-08.jpg" alt="" />
-          <div className="hov-in">
-            <Link to="#">
-              <i className="fab fa-instagram" />
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div className="item">
-        <div className="ins-inner-box">
-          <img src="images/instagram-img-09.jpg" alt="" />
-          <div className="hov-in">
-            <Link to="#">
-              <i className="fab fa-instagram" />
-            </Link>
-          </div>
-        </div>
-      </div>
-      <div className="item">
-        <div className="ins-inner-box">
-          <img src="images/instagram-img-05.jpg" alt="" />
-          <div className="hov-in">
-            <Link to="#">
-              <i className="fab fa-instagram" />
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/* End Instagram Feed  */}
-</>
-
-
-    
-        {/* Start copyright  */}
-        <div className="footer-copyright">
-          <p className="footer-company">
-            All Rights Reserved. © 2018 <Link to="#">ThewayShop</Link> Design By :
-            <Link to="#"> Rajat</Link>
-          </p>
-        </div>
-        {/* End copyright  */}
-        <Link
-          to="#"
-          id="back-to-top"
-          title="Back to top"
-          style={{ display: "none" }}
-        >
-          ↑
-        </Link>
-    
+      {/* End copyright  */}
+      <Link
+        to="#"
+        id="back-to-top"
+        title="Back to top"
+        style={{ display: "none" }}
+      >
+        ↑
+      </Link>
     </>
   );
 }
